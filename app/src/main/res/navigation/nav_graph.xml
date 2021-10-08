@@ -41,4 +41,9 @@
             app:argType="long"
             android:defaultValue="-1L" />
     </fragment>
+    <activity
+        android:id="@+id/character"
+        android:name="com.example.myscheduler.character"
+        android:label="activity_character"
+        tools:layout="@layout/activity_character" />
 </navigation>

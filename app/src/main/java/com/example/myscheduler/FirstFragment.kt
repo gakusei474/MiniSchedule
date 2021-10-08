@@ -65,3 +65,7 @@ class FirstFragment : Fragment() {
         realm.close()
     }
 }
+
+class FragmentFirstBinding {
+
+}
