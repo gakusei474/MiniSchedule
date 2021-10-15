@@ -21,5 +21,4 @@
     <string name="select_time_text">時間選択</string>
     <string name="save_text">保存</string>
     <string name="delete_text">削除</string>
-    <string name="back_text">←</string>
 </resources>

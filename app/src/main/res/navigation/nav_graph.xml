@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    android:label="@string/スケージュール編集"
+    app:startDestination="@id/SecondFragment">
 
     <fragment
         android:id="@+id/FirstFragment"
@@ -35,11 +36,11 @@
         android:id="@+id/scheduleEditFragment"
         android:name="com.example.myscheduler.ScheduleEditFragment"
         android:label="@string/schedule_edit_text"
-        tools:layout="@layout/fragment_schedule_edit" >
+        tools:layout="@layout/fragment_schedule_edit">
         <argument
             android:name="scheduleId"
-            app:argType="long"
-            android:defaultValue="-1L" />
+            android:defaultValue="-1L"
+            app:argType="long" />
     </fragment>
     <activity
         android:id="@+id/character"
