@@ -21,4 +21,13 @@
     <string name="select_time_text">時間選択</string>
     <string name="save_text">保存</string>
     <string name="delete_text">削除</string>
+    <string name="back_yotei">←</string>
+    <string name="title_activity_character_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="name"><U>　name　</U></string>
+    <string name="kisekae">着せ替え</string>
+    <string name="sanpo">散歩</string>
+    <string name="kaiwa">会話</string>
 </resources>

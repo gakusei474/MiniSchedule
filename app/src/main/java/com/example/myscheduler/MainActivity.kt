@@ -7,6 +7,11 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.myscheduler.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+
+
+
+
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,6 +25,13 @@ class MainActivity : AppCompatActivity() {
         binding.fab.setOnClickListener { view ->
             naviController.navigate(R.id.action_to_scheduleEditFragment)
         }
+
+
+
+
+
+
+
     }
 
     override fun onSupportNavigateUp()
